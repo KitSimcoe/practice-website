@@ -156,6 +156,43 @@ footer {
     font-size: 24px;
     font-weight: 900;
     font-style: italic;
-    
 }
 
+.another-signup {
+    display: flex;
+    margin: 75px 300px;
+    background-color: #3882F6;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-signup__left {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.another-signup__right {
+    flex-basis: 25%;
+}
+
+.another-signup__p {
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+}
+.another-signup__header {
+    margin: 0px;
+    padding: 0px;
+    color: #E5E7EB;
+    font-size: 36px;
+}
+
+.bottom-button {
+    border: 2px solid white;
+}
