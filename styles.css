@@ -86,3 +86,19 @@ button {
     border-radius: 8px;
     font-weight:bold
 }
+
+
+
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    color:#E5E7EB;
+    
+}
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+}
