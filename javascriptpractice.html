@@ -63,6 +63,55 @@
 
         console.log(message)
 
+        let comparisonTest = 2 == 3;
+
+        console.log(comparisonTest)
+
+        
+
+
+        let leaper = "let's see if this tab out works";
+
+        function favouriteAnimal(sentientbeing) {
+            return sentientbeing + " is my favourite animal"
+        }
+
+        console.log(favouriteAnimal("goat"))
+
+        // func declaration
+         function add7 (a) {
+            return a + 7;
+            
+         }
+        
+         // fuction expression
+
+         let multiply = function(a, b) {
+            return (a * b);
+         };
+        
+         function capitalize (words) {
+            return words.charAt(0).toUpperCase() + words.slice(1).toLowerCase();
+            
+         }
+         // this is an arrow function
+
+         let lastLetter = string => string.slice(-1);
+         
+
+
+
+         // calls to the above functions 
+         console.log(add7(10))
+
+         console.log(multiply(10, 10))
+
+         console.log(capitalize("KIT IS THE GREATEST"))
+         console.log(capitalize("Kit is tHe GREATEST"))
+         console.log(capitalize("kit is the greatest"))
+
+         console.log(lastLetter("what's going on"))
+
         </script>
     </body>
 </html>
