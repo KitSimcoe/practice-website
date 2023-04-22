@@ -112,6 +112,60 @@
 
          console.log(lastLetter("what's going on"))
 
+        for (let i = 1; i <= 10; ++i) {
+            if (i % 2 == 0) {
+                alert(i)
+            }
+        }
+            let i = 0;
+        while (i < 3) {
+            alert( `number ${i}` );
+            i++;
+
+        }
+
+        function repeatString(string, num) {
+    let text = "";
+        if (num < 0) {
+            return "ERROR";
+        } else {
+            for (i = 0;  i < num; i++) {
+                text += string;
+            }
+    }
+    console.log(text)
+    return text;
+};
+
+repeatString("hey", 1)
+repeatString("hey", 0)
+repeatString("hey", 7)
+repeatString("hey", 100)
+
+function removeFromArray(arr, ...numbers) {
+
+    let array = arr;
+    let toRemove = Array.from(numbers);
+    console.log(array);
+    console.log(toRemove);
+    let test = array.indexOf(1)
+    console.log(test);
+
+    array.forEach(function(item, index, array) {
+        let itemIndex = toRemove.findIndex(toRemove => toRemove.name === item.name);
+
+        array.splice(itemIndex, 1)
+    })
+
+    console.log(array);
+
+    
+
+    return array;
+};
+        
+removeFromArray([1, 3, 4, 5], 7, 9, 10, 33, 2)
         </script>
     </body>
 </html>
+
